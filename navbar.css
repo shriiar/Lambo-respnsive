@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: baseline;
+    justify-items: center;
+}
+
+.side_child {
+    margin: 0 2em;
+    cursor: pointer;
+}
+
+.side_child img {
+    height: 5em;
+    width: 5em;
+}
+
+.nav_hid, .nav_hid a {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.nav_hid:hover {
+    transform: scale(1.1);
+}
+
+.down {
+    display: none;
+}
+
+.down_c {
+    text-decoration: none;
+    color: goldenrod;
+    display: block;
+}
+
+.side_child:hover>.down {
+    display: block;
+}
+
+#down0:hover, #down2:hover, #down3:hover, #down4:hover, #down5:hover, #down6:hover, #down7:hover, #down8:hover, .side_child nav_hid:hover {
+    transform: scale(1.1);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+
+/*---------------------
+ media quary 
+-----------------------*/
+
+@media only screen and (min-width:1px) and (max-width:500px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    #side2 {
+        justify-content: flex-end;
+        flex-grow: 1;
+        margin: 1.1em;
+    }
+
+    .side_child {
+        margin: 0 2em;
+        cursor: pointer;
+    }
+
+    .side_child img {
+        height: 2em;
+        width: 2em;
+    }
+
+    .nav_hid {
+        font-size: 7px;
+        font-weight: 500;
+        text-decoration: none;
+        color: goldenrod;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:1000px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    #side2 {
+        justify-content: flex-end;
+        flex-grow: 1;
+        margin: 1.1em;
+    }
+
+    .side_child {
+        margin: 0 2em;
+        cursor: pointer;
+    }
+
+    .side_child img {
+        height: 2em;
+        width: 2em;
+    }
+
+    .nav_hid {
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        color: goldenrod;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.part {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.blck {
+    display: block;
+    padding: 20px;
+}
+
+.blck a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.inp, .inp::placeholder {
+    height: 1.5em;
+    width: 18em;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    transition: 0.5s;
+}
+
+.inp:hover {
+    transform: scale(1.1);
+}
+
+button {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: goldenrod;
+    text-align: center;
+    font-size: 1em;
+    padding: 6px;
+    width: 110px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+    border-radius: 6px;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
