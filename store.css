@@ -93,6 +93,7 @@ hr {
     width: 100%;
     height: 150px;
     border-radius: 7px;
+    object-fit: cover;
 }
 
 .sec-div-accessories-div {
@@ -207,6 +208,7 @@ cloths
     width: 30%;
     height: 200px;
     margin-right: 20px;
+    object-fit: cover;
 }
 
 .c-part h3 {
@@ -276,7 +278,7 @@ cloths
     .c-part h3 {
         color: goldenrod;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
