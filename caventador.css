@@ -82,8 +82,36 @@ info
     transition: 0.5s;
 }
 
-.grid-c:hover {
+.grid-c:hover{
+    transform: scale(1.1);
     background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.grid-s-c{
+    transition: 0.5s;
+}
+
+.grid-s-c:hover{
+    transform: scale(1.1);
+    background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 7px;
+    width: 50%;
+}
+
+#specs-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#specs-img img{
+    transition: 0.5s;
+}
+
+
+#specs-img img:hover{
+    transform: scale(1.1);
 }
 
 /*------------------
@@ -99,23 +127,10 @@ specs
     width: 50%;
 }
 
-#specs-img{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .grid-s{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: goldenrod;
-}
-
-.grid-s-c{
-    transition: 0.4s;
-}
-
-.grid-s-c:hover{
-    background-color: rgba(128, 128, 128, 0.171);
 }
 
 /*------------------
@@ -242,6 +257,27 @@ media quary
     .grid-s-c:hover{
         background-color: rgba(128, 128, 128, 0.171);
     }
+    .grid-s-c:hover{
+        transform: scale(1.1);
+        background-color: rgba(128, 128, 128, 0.116);
+        border-radius: 7px;
+        width: 50%;
+    }
+    
+    #specs-img{
+        display: flex;
+        justify-content: space-evenly;
+        transition: 0.5s;
+    }
+    
+    #specs-img img{
+        transition: 0.5s;
+    }
+    
+    
+    #specs-img img:hover{
+        transform: scale(1.1);
+    }
 }
 
 @media only screen and (min-width:451px) and (max-width:800px) {
@@ -364,6 +400,27 @@ media quary
     .grid-s-c:hover{
         background-color: rgba(128, 128, 128, 0.171);
     }
+    .grid-s-c:hover{
+        transform: scale(1.1);
+        background-color: rgba(128, 128, 128, 0.116);
+        border-radius: 7px;
+        width: 50%;
+    }
+    
+    #specs-img{
+        display: flex;
+        justify-content: space-evenly;
+        transition: 0.5s;
+    }
+    
+    #specs-img img{
+        transition: 0.5s;
+    }
+    
+    
+    #specs-img img:hover{
+        transform: scale(1.1);
+    }
 }
 
 @media only screen and (min-width:801px) and (max-width:1500px) {
@@ -485,6 +542,24 @@ media quary
     }
     
     .grid-s-c:hover{
-        background-color: rgba(128, 128, 128, 0.171);
+        transform: scale(1.1);
+        background-color: rgba(128, 128, 128, 0.116);
+        border-radius: 7px;
+        width: 50%;
+    }
+    
+    #specs-img{
+        display: flex;
+        justify-content: space-evenly;
+        transition: 0.5s;
+    }
+    
+    #specs-img img{
+        transition: 0.5s;
+    }
+    
+    
+    #specs-img img:hover{
+        transform: scale(1.1);
     }
 }
