@@ -1,0 +1,490 @@
+video {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg {
+    background-image: url(img/dylan-pirozek-RzgGMz2kU944-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.527);
+    align-items: center;
+}
+
+#bg-h2, #bg-h1 {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+#bg-h2 {
+    font-size: 90px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+#bg-h1 {
+    font-size: 150px;
+    margin-top: 2px;
+    margin-left: 40px;
+}
+
+/*-----------------
+info
+--------------------*/
+
+.info {
+    display: flex;
+    color: whitesmoke;
+    margin: 40px;
+    align-items: center;
+}
+
+.hw {
+    width: 50%;
+}
+
+.hw1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.hw1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.hw1 h3, .hw1 p {
+    margin: 5px;
+    color: goldenrod;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1r);
+    justify-content: center;
+    grid-gap: 30px;
+}
+
+.grid-c {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-items: stretch;
+    grid-gap: 20px;
+    transition: 0.5s;
+}
+
+.grid-c:hover {
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+/*------------------
+specs
+---------------------*/
+
+.specs{
+    display: flex;
+    align-items: center;
+}
+
+.hw-s{
+    width: 50%;
+}
+
+#specs-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid-s{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: goldenrod;
+}
+
+.grid-s-c{
+    transition: 0.4s;
+}
+
+.grid-s-c:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+
+/*------------------
+media quary
+--------------------*/
+
+@media only screen and (min-width:1px) and (max-width:450px) {
+    .bg {
+        background-image: url(img/dylan-pirozek-RzgGMz2kU944-unsplash.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+
+    #bg-h2, #bg-h1 {
+        color: goldenrod;
+        font-weight: 500;
+    }
+
+    #bg-h2 {
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+
+    #bg-h1 {
+        font-size: 20px;
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+
+    /* // */
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        margin: 40px;
+        align-items: center;
+    }
+
+    .hw {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .hw1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .hw1 img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 7px;
+    }
+
+    .hw1 h3, .hw1 p {
+        margin: 0;
+        font-size: 8px;
+        text-align: center;
+        color: goldenrod;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1r);
+        grid-gap: 30px;
+    }
+
+    .grid-c {
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        justify-items: stretch;
+        grid-gap: 20px;
+        transition: 0.5s;
+    }
+
+    .grid-c:hover {
+        background-color: rgba(128, 128, 128, 0.116);
+    }
+
+    /* // */
+
+    .specs{
+        display: flex;
+        align-items: center;
+    }
+    
+    .hw-s{
+        width: 50%;
+    }
+    
+    #specs-img{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #specs-img img{
+        width: 70%;
+    }
+    
+    .grid-s{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color: goldenrod;
+    }
+    
+    .grid-s-c{
+        transition: 0.4s;
+    }
+
+    .grid-s-c h3, .grid-s-c p{
+        font-size: 12px;
+    }
+    
+    .grid-s-c:hover{
+        background-color: rgba(128, 128, 128, 0.171);
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:800px) {
+    .bg {
+        background-image: url(img/dylan-pirozek-RzgGMz2kU944-unsplash.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+
+    #bg-h2, #bg-h1 {
+        color: goldenrod;
+        font-weight: 500;
+    }
+
+    #bg-h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+
+    #bg-h1 {
+        font-size: 60px;
+        margin-top: 2px;
+        margin-left: 30px;
+    }
+
+    /* // */
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        margin: 40px;
+        align-items: center;
+    }
+
+    .hw {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .hw1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .hw1 img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 7px;
+    }
+
+    .hw1 h3, .hw1 p {
+        margin: 4px;
+        font-size: 10px;
+        text-align: center;
+        color: goldenrod;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1r);
+        grid-gap: 30px;
+    }
+
+    .grid-c {
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        justify-items: stretch;
+        grid-gap: 20px;
+        transition: 0.5s;
+    }
+
+    .grid-c:hover {
+        background-color: rgba(128, 128, 128, 0.116);
+    }
+
+    /* // */
+
+    .specs{
+        display: flex;
+        align-items: center;
+    }
+    
+    .hw-s{
+        width: 50%;
+    }
+    
+    #specs-img{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #specs-img img{
+        width: 80%;
+    }
+    
+    .grid-s{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color: goldenrod;
+    }
+    
+    .grid-s-c{
+        transition: 0.4s;
+    }
+
+    .grid-s-c h3, .grid-s-c p{
+        font-size: 14px;
+    }
+    
+    .grid-s-c:hover{
+        background-color: rgba(128, 128, 128, 0.171);
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:1500px) {
+    .bg {
+        background-image: url(img/dylan-pirozek-RzgGMz2kU944-unsplash.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+
+    #bg-h2, #bg-h1 {
+        color: goldenrod;
+        font-weight: 500;
+    }
+
+    #bg-h2 {
+        font-size: 50px;
+        margin-bottom: 5px;
+        margin-left: 40px;
+    }
+
+    #bg-h1 {
+        font-size: 80px;
+        margin-top: 2px;
+        margin-left: 40px;
+    }
+
+    /* // */
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        margin: 40px;
+        align-items: center;
+    }
+
+    .hw {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .hw1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .hw1 img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 7px;
+    }
+
+    .hw1 h3, .hw1 p {
+        margin: 8px;
+        font-size: 20px;
+        text-align: center;
+        color: goldenrod;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        justify-items: center;
+    }
+
+    .grid-c {
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        justify-items: stretch;
+        grid-gap: 20px;
+        transition: 0.5s;
+    }
+
+    .grid-c:hover {
+        background-color: rgba(128, 128, 128, 0.116);
+    }
+
+    /* // */
+
+    .specs{
+        display: flex;
+        align-items: center;
+    }
+    
+    .hw-s{
+        width: 50%;
+    }
+    
+    #specs-img{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #specs-img img{
+        width: 80%;
+    }
+    
+    .grid-s{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: goldenrod;
+    }
+    
+    .grid-s-c{
+        transition: 0.4s;
+    }
+
+    .grid-s-c h3, .grid-s-c p{
+        font-size: 20px;
+    }
+    
+    .grid-s-c:hover{
+        background-color: rgba(128, 128, 128, 0.171);
+    }
+}
