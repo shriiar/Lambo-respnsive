@@ -126,11 +126,10 @@ button:hover:after {
     .inp, .inp::placeholder {
         height: 1.5em;
         width: 18em;
-        background-color: rgba(0, 0, 0, 0.281);
         border: none;
         padding: 8px;
         border-radius: 6px;
-        font-size: 1.1em;
+        font-size: 1.5em;
         color: goldenrod;
         transition: 0.5s;
     }
@@ -145,12 +144,12 @@ button:hover:after {
         border: none;
         color: goldenrod;
         text-align: center;
-        font-size: 1em;
-        padding: 6px;
+        font-size: 2em;
+        padding: 3px;
         width: 110px;
         transition: all 0.5s;
         cursor: pointer;
-        margin: 8px;
+        margin: 12px;
         box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
         border-radius: 6px;
     }
@@ -160,7 +159,7 @@ button:hover:after {
         content: '»';
         position: absolute;
         opacity: 0;
-        top: 14px;
+        top: 18px;
         right: -20px;
         transition: 0.5s;
     }
@@ -211,7 +210,7 @@ button:hover:after {
         border: none;
         padding: 8px;
         border-radius: 6px;
-        font-size: 1.1em;
+        font-size: 1.9em;
         color: goldenrod;
         transition: 0.5s;
     }
@@ -226,7 +225,7 @@ button:hover:after {
         border: none;
         color: goldenrod;
         text-align: center;
-        font-size: 1em;
+        font-size: 3.5em;
         padding: 6px;
         width: 110px;
         transition: all 0.5s;
@@ -286,13 +285,13 @@ button:hover:after {
     }
     
     .inp, .inp::placeholder {
-        height: 1.5em;
+        height: 2.5em;
         width: 28em;
         background-color: rgba(0, 0, 0, 0.281);
         border: none;
         padding: 8px;
         border-radius: 6px;
-        font-size: 1.1em;
+        font-size: 2.1em;
         color: goldenrod;
         transition: 0.5s;
     }
@@ -307,7 +306,7 @@ button:hover:after {
         border: none;
         color: goldenrod;
         text-align: center;
-        font-size: 1em;
+        font-size: 2.5em;
         padding: 6px;
         width: 110px;
         transition: all 0.5s;
@@ -367,13 +366,13 @@ button:hover:after {
     }
     
     .inp, .inp::placeholder {
-        height: 1.5em;
+        height: 2.5em;
         width: 28em;
         background-color: rgba(0, 0, 0, 0.281);
         border: none;
         padding: 8px;
         border-radius: 6px;
-        font-size: 1.1em;
+        font-size: 1.8em;
         color: goldenrod;
         transition: 0.5s;
     }
@@ -388,7 +387,7 @@ button:hover:after {
         border: none;
         color: goldenrod;
         text-align: center;
-        font-size: 1em;
+        font-size: 3em;
         padding: 6px;
         width: 110px;
         transition: all 0.5s;
@@ -419,7 +418,7 @@ button:hover:after {
     }
 }
 
-@media only screen and (min-width:1801px) and (max-width:3000px) {
+@media only screen and (min-width:1801px) and (max-width:4000px) {
     .content {
         position: absolute;
         bottom: 0;
